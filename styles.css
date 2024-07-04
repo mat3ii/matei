@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Courier Prime', monospace;
-    background: url('https://www.creativefabrica.com/wp-content/uploads/2023/09/30/Pink-And-Rose-Gold-Marble-Graphic-80485776-1.png') no-repeat center center fixed;
+    background: url('https://img.freepik.com/free-photo/aurora-borealis-landscape-sea_23-2151387547.jpg?w=1380&t=st=1719934764~exp=1719935364~hmac=4bdd19d48210bc4c5311e991ee77b64a93eaf2fe9e73bde05e27be214ad92ffd') no-repeat center center fixed;
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -20,16 +20,7 @@ body {
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 600px;
-}
-
-.dedica-container {
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 10px;
-    padding: 20px 40px;
-    text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    max-width: 600px;
-    margin-top: 50px;
+    margin: 20px;
 }
 
 .star-image {
@@ -42,7 +33,7 @@ body {
 
 h1 {
     font-family: 'Pacifico', cursive;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #2c3e50;
 }
 
@@ -58,38 +49,49 @@ p {
 }
 
 .star-name {
-    font-family: 'sans-serif';
+    font-family: 'Pacifico', cursive;
     font-size: 1.5em;
     margin-top: 20px;
-    color: black;
+    color: #2c3e50;
 }
 
 .dedica-button {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
-    background-color: pink;
+    font-size: 1em;
     color: white;
+    background-color: #ff69b4;
     text-decoration: none;
     border-radius: 5px;
-    font-size: 1em;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: pink;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 1em;
+.dedica-button:hover {
+    background-color: #ff1493;
 }
 
-textarea {
-    width: 100%;
-    max-width: 500px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-family: 'Courier Prime', monospace;
-    font-size: 1em;
+/* Media queries for responsive design */
+@media (max-width: 600px) {
+    .certificate-container {
+        padding: 15px 20px;
+        max-width: 90%;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    .coordinates {
+        font-size: 1.2em;
+    }
+
+    .star-name {
+        font-size: 1.2em;
+    }
+
+    .dedica-button {
+        padding: 8px 16px;
+        font-size: 0.9em;
+    }
 }
+
